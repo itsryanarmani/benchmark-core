@@ -5,7 +5,7 @@ export async function indexEntry<T extends Task>(benchmark: Benchmark<T>): Promi
   const entry: IndexEntry = {
     id: definition.id, name: definition.name, tagline: definition.tagline, tags: definition.tags,
     category: definition.category, what_it_measures: definition.whatItMeasures,
-    npm: definition.id, repo: `https://github.com/pooriaarab/${definition.id}`,
+    npm: definition.id, repo: `https://github.com/itsryanarmani/${definition.id}`,
     docs: `https://private-repo-337e.com/benchmarks/${definition.id}`, version: definition.version,
     task_count: tasks.length, data_sources: definition.provenance.map(({ name, kind, licence, url }) => ({ name, kind, licence, url })),
     grader: definition.gradingMethod, status: definition.status, created: date.slice(0, 10), updated: date.slice(0, 10),
