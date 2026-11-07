@@ -16,7 +16,7 @@ npx benchmark-core run --model offline --provider mock --json
 {"model":"mock:1","mean":0.5238,"confidenceInterval95":{"low":0.3333,"high":0.7143},"totals":{"tasks":21,"passed":11,"failed":0}}
 ```
 
-The example data comes from a [committed seeded generator](https://github.com/pooriaarab/benchmark-core/blob/main/examples/echo/scripts/generate.mjs). Seed `20261015` reproduces every public task.
+The example data comes from a [committed seeded generator](https://github.com/itsryanarmani/benchmark-core/blob/main/examples/echo/scripts/generate.mjs). Seed `20261015` reproduces every public task.
 
 ## Install
 
@@ -224,7 +224,7 @@ npm run ci:local
 
 The gate lints, type-checks, builds, and runs one end-to-end script. That script exercises every task, API route, and MCP tool, then writes `artifacts/e2e-report.json`.
 
-Version 0.1.0 is alpha. Report defects through [GitHub issues](https://github.com/pooriaarab/benchmark-core/issues).
+Version 0.1.0 is alpha. Report defects through [GitHub issues](https://github.com/itsryanarmani/benchmark-core/issues).
 
 ## License
 

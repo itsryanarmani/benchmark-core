@@ -29,7 +29,7 @@ export const echoBenchmark = defineBenchmark({
     bad: (task) => task.kind === "episode" ? [{ toolCalls: [lookup] }, { content: "The lookup failed." }] : [],
   },
   provenance: [{
-    name: "Seeded arithmetic and order generator", kind: "synthetic", url: "https://github.com/pooriaarab/benchmark-core/blob/main/examples/echo/scripts/generate.mjs",
+    name: "Seeded arithmetic and order generator", kind: "synthetic", url: "https://github.com/itsryanarmani/benchmark-core/blob/main/examples/echo/scripts/generate.mjs",
     licence: "MIT", howToGet: "Run `node examples/echo/scripts/generate.mjs` from the repository root.", retrievedAt: "2026-10-15T00:00:00.000Z",
     contaminationNotes: "Generated with seed 20261015. Future public releases keep a separately seeded hidden split after the 2026-10-15 cutoff.",
     refresh: "Change the committed seed, run the generator, and review the JSONL diff.",

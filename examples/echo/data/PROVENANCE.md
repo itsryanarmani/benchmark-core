@@ -5,7 +5,7 @@ This file is generated from the benchmark definition.
 ## Seeded arithmetic and order generator
 
 - Kind: `synthetic`
-- URL: https://github.com/pooriaarab/benchmark-core/blob/main/examples/echo/scripts/generate.mjs
+- URL: https://github.com/itsryanarmani/benchmark-core/blob/main/examples/echo/scripts/generate.mjs
 - Licence: `MIT`
 - Retrieved: 2026-10-15T00:00:00.000Z
 - How to get it: Run `node examples/echo/scripts/generate.mjs` from the repository root.

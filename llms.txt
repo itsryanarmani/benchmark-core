@@ -3,9 +3,9 @@
 > Typed engine for AI benchmarks with SDK, CLI, MCP, and HTTP API surfaces.
 
 Package: https://www.npmjs.com/package/benchmark-core
-Repository: https://github.com/pooriaarab/benchmark-core
+Repository: https://github.com/itsryanarmani/benchmark-core
 Directory: https://private-repo-337e.com
-README: https://github.com/pooriaarab/benchmark-core#readme
+README: https://github.com/itsryanarmani/benchmark-core#readme
 
 ## Main exports
 

@@ -17,10 +17,10 @@
     "agent-benchmark"
   ],
   "homepage": "https://private-repo-337e.com",
-  "bugs": "https://github.com/pooriaarab/benchmark-core/issues",
+  "bugs": "https://github.com/itsryanarmani/benchmark-core/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/benchmark-core.git"
+    "url": "git+https://github.com/itsryanarmani/benchmark-core.git"
   },
   "license": "MIT",
   "author": "Pooria Arab",
